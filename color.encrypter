@@ -1,0 +1,29 @@
+distancia _d=5;
+cadena _s = 'Obstaculo';
+
+adelante(5);
+atras(_d);
+atras();
+izquierda(1);
+adelante(2);
+
+si(verAdelante()){
+	luces();
+}sino{
+	adelante();
+}finsino
+plantar();
+
+plantar(5);
+derecha(1);
+adelante(2);
+plantar(1);
+atras(_d);
+plantar(_d);
+
+repetir(4){
+	izquierda();
+	adelante();
+	derecha();
+	adelante();
+}

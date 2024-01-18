@@ -1,0 +1,15 @@
+distancia _m = 5;
+distancia _s = 4;
+
+repetir(3){
+adelante(_m);
+atras();
+luces();
+}
+
+
+repetir(2){
+adelante(_s);
+atras();
+luces();
+}

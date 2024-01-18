@@ -1,0 +1,18 @@
+distancia _d=5;
+adelante(5);
+atras(_d);
+atras();
+izquierda(1);
+adelante(2);
+plantar(5);
+derecha(1);
+adelante(2);
+plantar(1);
+atras(_d);
+plantar(1);
+repetir(4){
+	izquierda();
+	adelante();
+	derecha();
+	adelante();
+}

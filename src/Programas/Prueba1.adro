@@ -1,0 +1,14 @@
+cadena _c = 'Obstaculo';
+distancia _d = 10;
+distancia _b = 15;
+
+adelante(2);
+
+si(verAdelante()){
+	luces();
+}sino{
+	atras(_d);
+}finsino
+plantar();
+luces();
+adelante(_d);
